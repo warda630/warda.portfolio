@@ -10,7 +10,7 @@
 <style>
   :root {
     --dark-navy: #02030D;
-    --blue-gray: #101316;
+    --blue-gray: #0C1014;
     --white: #FFFFFF;
     --foggy-blue: #ADBDC8;
     --vivid-blue: #0361DC;
@@ -73,7 +73,7 @@
     transition: background .4s, border-color .4s, padding .4s;
   }
   nav.scrolled {
-    background:rgba(13,13,13,0.92); border-color:var(--line);
+    background:rgba(124,174,238,0.25); border-color:var(--line);
     padding:18px 60px; backdrop-filter:blur(16px);
   }
   .nav-logo {
@@ -110,7 +110,7 @@
   }
   .hero-bg {
     position:absolute; inset:0;
-    background: radial-gradient(ellipse 40% 50% at 59% 40%, rgba(124,174,238,0.25) 0%, transparent 68%),
+    background: radial-gradient(ellipse 40% 50% at 55% 40%, rgba(124,174,238,0.11) 0%, transparent 68%),
                 radial-gradient(ellipse 40% 0% at 20% 80%, rgba(124,174,238,0.25) 0%, transparent 60%);
   }
   .hero-line-deco {
@@ -190,7 +190,7 @@
   }
   .about-img-frame {
     position:relative; aspect-ratio:3/4; overflow:hidden;
-    background:var(--blue-gray);
+    background:var(--dark-navy);
   }
   .about-img-frame::before {
     content:''; position:absolute; inset:0;
@@ -412,7 +412,7 @@
   .process::before {
     content:'04'; position:absolute; top:60px; right:60px;
     font-family:'Cormorant Garamond',serif; font-size:9rem;
-    color:rgba(201,168,76,0.04); font-weight:600; pointer-events:none;
+    color:rgba(124,174,238,0.25); font-weight:600; pointer-events:none;
   }
   .process-steps {
     display:grid; grid-template-columns:repeat(4,1fr);
@@ -475,7 +475,7 @@
   }
   .contact-bg {
     position:absolute; inset:0;
-    background: radial-gradient(ellipse 50% 40% at 50% 100%, rgba(124,174,238,0.25) 0%, transparent 69%);
+    background: radial-gradient(ellipse 55% 40% at 50% 100%, rgba(124,174,238,0.11) 0%, transparent 69%);
   }
   .contact-eyebrow {
     font-size:.72rem; letter-spacing:.22em; text-transform:uppercase;
